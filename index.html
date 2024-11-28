@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GenV Bag Store</title>
+</head>
+
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(201, 201, 27);
+    padding: 10px;
+   text-shadow: 20px left #00DDFF;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    /* font-size: 28px; */
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 800;
+
+}
+
+nav {
+    margin-bottom: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav a {
+    color: #59ce8f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f122cf;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+main {
+    padding: 10px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: -7vh;
+}
+
+.product-card {
+    background-color: rgb(201, 201, 27);
+    border: 2px solid rgb(239, 145, 145);
+    border-radius: 10px;
+    padding: 5%;
+    margin: 10px 0;
+    width: 60%;
+    text-align: center;
+}
+
+.product-card img {
+    width: 80%;
+    /* height: 250px; */
+    border-radius: 5px;
+    border: 2px groove rgb(27, 65, 12);
+    
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.price {
+    font-size: 18px;
+    margin: 10px 0;
+    display: none;
+}
+
+.discount {
+    color: #ff1d58;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: #ff1d58;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #59ce8f;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+.genv{
+    display: inline;
+    text-align: center;
+}
+
+.genv-logo{
+    width: 13%;
+  position: relative;
+  margin-left: 5px;
+  top: 13%;
+  filter: brightness(100);
+    
+     
+}
+.genv-name{
+    height: 50%;
+    width: 40%;
+}
+.main-img{
+    height: 30vh;
+    width: 100%;
+    /* opacity: 0.8; */
+}
+
+</style>
+
+
+<body>
+    <marquee direction="left" style="margin-bottom: 5px;">OFFER SALE UPTO 20% OFF | ₹30 CASHBACK ON GOOGLE REVIEW</marquee>
+    <img src="genvoffer.png" alt="" class="main-img">
+    <header>
+        <div class="genv">
+           <img class="genv-logo" src="GenV logo png.png" alt=""><img class="genv-name" src="genvbgremove.png" alt="">
+            </div>
+            <div class="navbar">
+                <!-- <h1>GenV</h1> -->
+            <h1>fashion for every generation</h1>
+            <nav>
+                <ul>
+                    <li><a href="#backpacks">Backpacks</a></li>
+                    <li><a href="#luggage">Luggage</a></li>
+                    <li><a href="#trolley">Trolley</a></li>
+                    <li><a href="#bulk-Corporate">bulk-Corporate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>ALL LATEST TRENDS FOR YOUR GENERATION!!</p>
+    </header>
+    <main>
+        <section class="services">
+          <!-- all services in sliding form of height about 20-30 vh -->
+
+        </section>
+        <section class="products">
+            <h2 style="color: white;"> TENDING PRODUCTS</h2>
+            
+               <div class="product-card" id="backpacks"><a href="allproduct.html#backpacks">
+                <img src="bg1.1.jpg" alt="Stylish Backpack">
+                <h3>Stylish duffle bag red with wheels</h3>
+                <p class="price">₹1199.00 <span class="discount">20% off</span></p>
+               <div class="button">View More</div>
+              </a>
+            </div>
+            
+            <div class="product-card" id="luggage"><a href="allproduct.html#luggage">
+                <img src="wheelergreen2.jpg" alt="Durable Luggage">
+                <h3>Durable Luggage</h3>
+                <p class="price">₹1899.00<span class="discount">15% off</span></p>
+                <div class="button">View More</div>
+            </a></div>
+            
+           
+            <div class="product-card" id="trolley"> <a href="allproduct.html#trolley">
+                <img src="trollyredxp1.jpg" alt="Compact Trolley">
+                <h3>Compact Trolley</h3>
+                <p class="price">₹1999.00<span class="discount">10% off</span></p>
+                <div class="button">View More</div>
+             </a></div>
+       
+        
+            <div class="product-card" id="bulk-Corporate"><a href="https://wa.me/+917208828275?text=Hello%20there!%20I%20am%20interested%20in%20your%20products%20for%20bulk/Corporate%20orders." target="_blank">
+                <img src="genvaitrolly.png" alt="Corporate Gift Bags">
+                <h3>Corporate Gift Bags</h3>
+                <p class="price">₹899.00 <span class="discount">25% off</span></p>
+                <div class="button">View More</div>
+            </a></div>
+            
+        </section>
+
+        <section class="partners">
+        <!-- all partners in sliding form of height about 10-20 vh -->
+
+        </section>
+        
+    </main>
+    <footer id="contact" >
+        <h3 >Contact Us</h3>
+        <p>Email: genvfashions@gmail.com</p>
+        <p>Phone: +91 72088 28275</p>
+        <p>Instagram: genv_india</p>
+        <p>Address: GenV fashion luggage and trolley Sion mumabai maharashtra-400021</p>
+        <p>&copy; 2024 GenV. All rights reserved.</p>
+    </footer>
+    <script>
+        const sw=screen.width;
+        const sh=screen.height;
+
+        if(sw>420){
+         alert('this site is for mobile resolution only please use mobile phone to better experience');
+        }
+    </script>
+</body>
+</html>
